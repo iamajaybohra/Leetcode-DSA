@@ -1,0 +1,8 @@
+Complexity
+Time complexity:
+The time complexity is O(m * n), where m is the number of rows and n is the number of columns in the grid.
+Each cell is visited once, and the DFS has a constant time complexity for each cell.
+
+Space complexity:
+The space complexity is O(m * n), where m is the number of rows and n is the number of columns in the grid.
+The additional space is used for the isVisited array, which has a size equal to the grid size.
