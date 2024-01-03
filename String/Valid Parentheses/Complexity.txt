@@ -1,0 +1,9 @@
+- Time complexity:
+  The time complexity of the algorithm is O(n), where n is the length of the input string. 
+  The algorithm iterates through each character in the string once, and the operations within 
+  the loop (pushing, popping from the stack, and map lookups) are constant time.
+
+- Space complexity:
+  The space complexity of the algorithm is O(n), where n is the length of the input string.
+  The space used is proportional to the maximum number of elements stored in the stack,
+  and in the worst case, it could be equal to the length of the input string.
