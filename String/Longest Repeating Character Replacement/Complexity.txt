@@ -1,0 +1,7 @@
+Time complexity:
+
+O(N), where N is the length of the input string 's'. The algorithm iterates through each character once.
+
+Space complexity:
+
+In the worst case, where all characters in the input string are distinct, the space complexity would be O(N), where N is the length of the input string. This is because the unordered_map would need to store information for each distinct character.
